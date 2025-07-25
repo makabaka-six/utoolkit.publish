@@ -26,10 +26,8 @@ namespace UToolkit.Publish.Editor
             {
                 if (_errorIcon == null)
                 {
-                    _errorIcon = (Texture2D)typeof(EditorGUIUtility).GetMethod("LoadIcon", BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.FlattenHierarchy).Invoke((object)null, new object[1]
-                    {
-                        (object)"console.erroricon"
-                    });
+                    var bindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.FlattenHierarchy;
+                    _errorIcon = (Texture2D)typeof(EditorGUIUtility).GetMethod("LoadIcon", bindingFlags).Invoke((object)null, new object[1] { (object)"console.erroricon" });
                 }
 
                 return _errorIcon;
@@ -42,7 +40,7 @@ namespace UToolkit.Publish.Editor
         private const string EDITOR_PREFS_KEY_TYPHOON_CACHE_NPM_USER_NAME = "EDITOR_PREFS_KEY_TYPHOON_CACHE_NPM_USER_NAME";
 
         //用户名输出目录
-        private static string UserNameTxtOutPutFolder => $"{UserRoot}/.carror/temp";
+        private static string UserNameTxtOutPutFolder => $"{UserRoot}/.utoolkit/temp";
 
         private PublishSetting Target => target as PublishSetting;
 
@@ -569,7 +567,9 @@ namespace UToolkit.Publish.Editor
                     AssetDatabase.SaveAssets();
                     Debug.Log("保存成功");
                 }
-                catch (Exception e) { }
+                catch (Exception e)
+                {
+                }
             }
         }
 
@@ -870,7 +870,9 @@ namespace UToolkit.Publish.Editor
                         return (response.Headers.Date.Value.UtcDateTime.ToLocalTime(), true);
                     }
                 }
-                catch (Exception ex) { }
+                catch (Exception ex)
+                {
+                }
             }
 
             Debug.Log("返回本地时间");
