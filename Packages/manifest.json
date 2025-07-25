@@ -30,13 +30,5 @@
     "com.unity.modules.unitywebrequesttexture": "1.0.0",
     "com.unity.modules.unitywebrequestwww": "1.0.0"
   },
-  "scopedRegistries": [
-    {
-      "name": "cn_superstar",
-      "url": "https://www.npmjs.com/",
-      "scopes": [
-        "utoolkit"
-      ]
-    }
-  ]
+  "scopedRegistries": []
 }
