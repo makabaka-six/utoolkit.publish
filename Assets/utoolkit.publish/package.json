@@ -1,1 +1,29 @@
-{"name":"utoolkit.publish","displayName":"UToolkit.Publish","version":"1.0.3","description":"Unity Package Manager发布工具","unity":"2021.3.14f1","type":"tool","hideInEditor":false,"author":{"name":"cn_superstar","email":"","url":""},"changelogUrl":"","documentationUrl":"","keywords":["utoolkit"],"license":"","licensesUrl":"","customDependencies":[],"version_log":"## [1.0.3] - 2025-07-26\r\n\r\n### 优化\n* 更新README.md\r\n\r\n","major_flag":false,"write_time_stamp":1753472948000,"others":{"items":[]},"dependencies":{}}
+{
+  "name": "utoolkit.publish",
+  "displayName": "UToolkit.Publish",
+  "version": "1.0.3",
+  "description": "Unity Package Manager发布工具",
+  "unity": "2021.3.14f1",
+  "type": "tool",
+  "hideInEditor": false,
+  "author": {
+    "name": "cn_superstar",
+    "email": "",
+    "url": ""
+  },
+  "changelogUrl": "",
+  "documentationUrl": "",
+  "keywords": [
+    "utoolkit"
+  ],
+  "license": "",
+  "licensesUrl": "",
+  "customDependencies": [],
+  "version_log": "",
+  "major_flag": false,
+  "write_time_stamp": 1753472948000,
+  "others": {
+    "items": []
+  },
+  "dependencies": {}
+}
