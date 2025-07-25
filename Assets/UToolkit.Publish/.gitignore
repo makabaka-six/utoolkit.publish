@@ -1,0 +1,13 @@
+.npmrc
+npm_user.txt
+npm-login.bat
+npm-logout.bat
+npm-whoami.bat
+npm-publish.bat
+npm_user.txt.meta
+npm-login.bat.meta
+npm-logout.bat.meta
+npm-whoami.bat.meta
+npm-publish.bat.meta
+npm_user.txt~
+.npmignore
