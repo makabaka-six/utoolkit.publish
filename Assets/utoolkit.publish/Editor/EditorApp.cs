@@ -13,7 +13,7 @@ namespace UToolkit.Publish.Editor
             {
                 if (_rootPath == null)
                 {
-                    var p1 = "Assets/utoolkit.publish";
+                    var p1 = "Assets/UToolkit.Publish";
                     var p2 = "Packages/utoolkit.publish";
                     if (Directory.Exists(p1))
                     {

@@ -19,9 +19,9 @@ MonoBehaviour:
   VersionChangeLog:
     Additions: 
     Fixes: 
-    Optimizations: 
+    Optimizations: "\u4FEE\u6539\u663E\u793A\u540D"
     Deletions: 
     Other: 
   VersionChangeLogFoldout: 1
-  WriteToPackageJsonVersionLog: 0
+  WriteToPackageJsonVersionLog: 1
   MajorUpdateFlag: 0
